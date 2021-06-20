@@ -1,0 +1,112 @@
+#zadatak {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* prvi zadatak */
+.film {
+    border: 2px solid black;
+    width: 200px;
+}
+.poster {
+    background: url("interstellar.jpg") no-repeat center / cover;
+    height: 200px;
+    border: red dotted;
+    border-radius: 50%;
+    padding: 0; margin: 0;    
+}
+.naslov_filma {
+    font-weight: bold;
+    font-size: 24px;
+}
+.naslov_filma  span {
+    color: red;
+}
+.opis {
+    color: blue;
+    font-weight: bold;
+}
+.sadrzaj {
+    height: 150px;
+    overflow: auto;
+}
+
+/* drugi zadatak */
+#okvir {
+    width: 350px;
+    height: 300px;
+    border: 1px solid #43D1AF;
+    margin: 0px; 
+    padding: 0px;
+    background-image: url("blue_background.jpg");
+    position: relative;
+}
+.header, .footer{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 350px;
+    height: 50px;
+    background-color: #43D1AF;
+    border: 0px ;
+}
+.tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+    color:  white;
+}
+.input_polje1, .input_polje2 {
+    background-color: white;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    
+}
+.input_polje3 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#label_name, #label_email, #text_area {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: grey;
+    padding-left: 8px;
+}
+#name, #email, #text_area {
+    border: none;
+    width: 340px;
+    padding-right: 0px;
+}
+#text_area {
+    padding-top: 10px;
+    width: 342px;
+}
+.footer {
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+.footer_tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0.7em;
+    padding-bottom: 0em;
+    color:  white;    
+}
+.button {
+    color: white;
+    border: none;
+    background-color: #43D1AF;
+}
+.button:hover {
+    background-color: red;
+}

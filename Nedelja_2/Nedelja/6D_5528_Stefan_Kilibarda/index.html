@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Domaci zadatak broj 6</title>
+    </head>
+    <body>
+        <div id="zadatak">
+            <p>Prvi zadatak</p>
+        </div>
+        <div>
+            <div class="payment_details">
+                <p>Your payment details</p>
+            </div>
+            <div>
+                <p id="p_label"><label for="name" >NAME</label></p>
+                <p id="p_input"><input type="text" id="name" name="name" size="40"></p>
+            </div>
+            <div>
+                <p id="p_label"><label for="card_number">CARD NUMBER</label></p>
+                <p id="p_input"><input type="text" id="card_number" name="card_number" size="40"></p>
+            </div>
+            <div>
+                <p id="p_label"><label for="expiration_date">EXPIRATION DATE</label></p>
+                <p id="p_input"><input type="text" id="expiration_date_mm" name="expiration_date_mm" size="9" placeholder="MM">
+                <input type="text" id="expiration_date_yy" name="expiration_date_yy" size="9" placeholder="YY"></p>
+            </div>
+            <div>
+                <p id="p_label"><label for="cvc">CVC</label></p>
+                <p id="p_input"><input type="text" id="cvc" name="cvc" size="7" placeholder="123"></p>
+            </div>
+            <div>
+                <p id="checkbox_label"><input type="checkbox" id="save_info" name="save_info" value="yes" >
+                <span><label for="save_info">Save my card for future purchases</label></span></p>
+            </div>
+            <div>
+                <button type="button" id="pay_button">PAY NOW</button>
+            </div>
+        </div>
+        <!-- drugi zadatak -->
+        <div id="zadatak">
+            <p>Drugi zadatak</p>
+        </div>
+        <div>
+            <table class="tabela">
+                <thead>
+                    <caption>Employee Timecard</caption>                    
+                    <tr>
+                        <th colspan="2">Day</th>
+                        <th>Regular</th>
+                        <th>Overtime</th>
+                        <th>Total</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Monday</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Tuesday</td>
+                        <td>8</td>
+                        <td>2.5</td>
+                        <td>10.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Wednesday</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Thursday</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Friday</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Saturday</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Sunday</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td id="poslednji_red" colspan="4">Total weekly hours:</td>
+                        <td id="poslednja_celija">48.5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

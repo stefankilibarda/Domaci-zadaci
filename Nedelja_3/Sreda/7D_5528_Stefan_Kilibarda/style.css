@@ -1,0 +1,60 @@
+/* zadatak 1 */
+
+ul {
+    padding: 0;
+}
+
+li.ima_podmeni {
+    display: inline-block;
+    position: relative;
+}
+ul.podmeni {
+    visibility: hidden;
+    list-style-type: none;
+    position: absolute;    
+}
+li:hover ul {
+    visibility: visible;
+}
+
+/* drugi zadatak */
+
+div.main {
+    background: url("blue_background.jpg") center / cover; opacity: 0.5;
+    position: fixed;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+div.inside img{
+    height: 50px;
+}
+.slika {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+img:hover {
+    cursor: crosshair;
+    transform: scale(1.2);
+}
+
+/* treci zadatak */
+
+
+
+header {
+    height: 2000px;
+    margin-top: 950px;
+}
+ul.sticky{
+    position: sticky;
+    top: 0; left:0;
+    padding: 5px;
+    background-color: blue;
+    border: 1px solid red;
+}
+ul.sticky li{  display:inline; padding-left:30px;  }
+div{   height:2000px; }
+

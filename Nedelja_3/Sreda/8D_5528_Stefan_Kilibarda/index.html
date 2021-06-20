@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to my personal page. My name is Stefan Kilibarda and look around to find a little more about me!">
+        <link rel="stylesheet" href="style.css">
+        <title>Stefan Kilibarda</title>
+    </head>
+    <body>        
+        <header id="header">
+            <div class="header_name">
+                Stefan Kilibarda
+            </div>
+            <div class="header_menu">
+                <ul class="list_menu">
+                    <li><a href="#first_page">Introduction</a></li>
+                    <li><a href="#second_page">So Far</a></li>
+                    <li><a href="#third_page">Future Adventures</a></li>
+                    <li><a href="#fourth_page">Get In Touch!</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="first_page">
+            <div class="content">
+                <div class="intro">
+                    I am <span class="name">Stefan Kilibarda</span>
+                </div>
+                <div class="fotka_ja">
+                    <img src="fotka_ja.jpg" alt="fotografija mene">
+                </div>
+                <div class="short_story">
+                    <p><span class="question">You are probably wondering who am I? Sometimes I ask myself the same thing! This is a bit of what I know so far, hear me out.</span></p>
+                    <p><span class="answer">Well, currently I work in sales in my family trading company, it's not much, but it keeps me busy, I went to the Faculty of Sport and Physical Education, took part in some science fairs, participated in a strength development research, yeah, fun times...</span></p>
+                    <p><span class="question">That's all cool, but you must be asking yourself what brings me to IT?</span></p>
+                    <p><span class="answer">And that's a good question. Everyone who knows me well, knows I grew up with computers and I loved them since I can remember, I have a passion for computers and all kinds of tech, and let's be honest, programming is fun, and a lot of my close friends work in IT!</span></p>
+                    <p><span class="question">People say that it's difficult, so you're thinking what keeps me going?</span></p>
+                    <p><span class="answer">Like I said, it's fun, also it's a challenge and kind of out of my comfort zone, which is a good way to keep me motivated and wanting more! Hey, and take a look below, there's some info about me and feel free to check the rest out!</span></p>
+                </div>
+                <div class="personal_info">
+                    <ul>
+                        <li>When was I born? <span>25.11.1990.</span></li>
+                        <li>Where do I live? <span>Novi Sad, Serbia</span></li>
+                        <li>What do I do? <span>Aspiring web developer</span></li>
+                        <li>Contact me! <span>stefandkilibarda@gmail.com</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div id="second_page">
+            <div class="content2">
+                <p class="text_content21"><img src="foto1.jpg" alt="my dad and myself visiting a factory">I have been working on and off in my family trading company in the sales deparment. Usually my job consists of email correspondence with clients and our supliers around the globe. It also means traveling and visiting our partners, meeting new people and seeing a lot of interesting stuff.</p>
+                <p class="text_content22"><img src="foto2.jpg" alt="science fair booth">While studying at the Faculty of Sport and Physical Education I took part in some extracurricular activities, volunteering in science fairs, a strength development research and other kinds of activities in representing my Faculty and gaining new knowledge. My favorite was a Science Fair in 2017 when we presented a motion analysis system.</p>
+                <p class="text_content23"><img src="foto3.jpg" alt="skydiving">I like all kinds of activities, I like to try new things and continue with the ones that stick, I have tried skydiving, rock climbing, archery, I've practiced martial arts and kickboxing, I like hiking and generally being outdoors. I think everything is worth trying, even if it's a bit intimidating. I like photography and playing chess even though I'm not the very good at it, but I try to learn and become better. I took a course in Software Testing using Python, a long time ago I took a short course in basic photography, and my plan is to take a course in horseback riding. </p>
+            </div>
+        </div>     
+        <div id="third_page">
+            <div class="construction_zone"></div> 
+            <div class="content3">
+                <div class="under_construction_photo"><img src="under_construction.jpg" alt="The section is under construction"></div>                
+            </div>
+            <div class="content3_text">In this area I will store finished project, it will contain nicely designed websites, both single page and multi page.<br>My idea is to build a website which will be easy on the eye, fun and intuitive to use.<br>They will be different purpose websites, if you need a webshop, your business presentation, a personal project, or have any kind of ideas, it can be brought to life.<br>And if you need a living breathing website, the backend is done in PHP, so all kinds of interactions from the user are possible, and taylored to any specific needs. </div>
+            </div>
+            <div class="construction_zone2"></div>                             
+        </div>        
+        <div id="fourth_page">
+            <div>
+                <div class="form_header">
+                    If you want to get in touch and ask something, or even if you just want to say hi, feel free to send me an email! <br>
+                    Simply fill out this form and I will get back to you asap!
+                </div>
+                <div class="form_content">
+                    <form action="server.php" method="GET">
+                        <fieldset>                            
+                            <div class="label"><label for="name">Name</label></div>
+                            <div><input type="text" id="name" name="name" maxlength="25" required></div>
+                            <div><label for="email">E-mail</label></div>
+                            <div><input type="email" id="email" name="email" required></div>
+                            <div><label for="text">Message</label></div>
+                            <div><textarea name="text_area" id="text_area" cols="60" rows="20" maxlength="275" required placeholder="Write your message here..."></textarea></div>
+                            <input class="btn" type="submit" value="SEND">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>Made by: Stefan Kilibarda</div>
+        </footer>
+    </body>
+</html>

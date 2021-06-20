@@ -1,0 +1,108 @@
+#zadatak {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* prvi zadatak */
+
+.payment_details {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p_label, #checkbox_label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #9a9a9a;
+}
+#checkbox_label span{
+    vertical-align: -10px;
+}
+#p_input {
+    margin-top: 0px;      
+}
+input:focus{    
+    border-bottom: 2px solid red !important;
+    outline: none;    
+}
+#name, #card_number, #expiration_date_mm, #expiration_date_yy, #cvc {
+    border: none;
+    border-bottom: 2px solid #F0F0F0;
+    padding-bottom: 5px;
+}
+#card_number {
+    background: url("icon.png") no-repeat left / contain;
+    padding-left: 30px;
+}
+
+#pay_button {
+    background-color: #24CF5F;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 0px 5px 20px #bbbbbb;
+}
+
+/* drugi zadatak */
+
+.tabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 0;
+}
+caption {
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: #F79646;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+}
+.tabela th {
+    background-color: #FDE9D9;
+    padding: 5px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #F79646;
+    border-right: 1px solid #9a9a9a;
+}
+.tabela td:not(:first-child) {
+    text-align: end;
+    padding: 5px 3px 5px 3px;
+    border-bottom: 1px solid #F79646;
+    border-right: 1px solid #9a9a9a;
+
+}
+.tabela td:nth-child(1) {
+    padding-right: 200px;
+    border-bottom: 1px solid #F79646;
+    border-right: 1px solid #9a9a9a;
+
+}
+.tabela tr:nth-child(-n+8) {
+    font-size: 15px;    
+}
+.tabela tr:nth-child(even) {
+    background-color: #FDE9D9;
+}
+.tabela tr:nth-of-type(8) { 
+    background-color: #687886;
+    color: white;   
+    text-align: end;
+    font-weight: bold;  
+    border-right: 1px solid #9a9a9a;
+}
+#poslednji_red {
+    padding-right: 15px;    
+}
+#poslednji_red, #poslednja_celija {
+    border-bottom: none;
+}
+.tabela th:last-child, .tabela td:last-child {
+    border-right: 0;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Domaci zadatak</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- prvi zadatak -->
+        <div>
+            <p id="zadatak">Prvi zadatak</p>
+        </div>
+        <div class="film">
+            <div class="naslov_filma">
+                <p>Film: <span>INTERSTELLAR</span></p>
+            </div>
+            <div class="poster"></div> 
+                <p class="opis">
+                    Opis:
+                    <p class="sadrzaj"> In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.</p>
+                </p>                       
+        </div>
+        <!-- drugi zadatak -->
+        <hr>
+        <div>
+            <p id="zadatak">Drugi zadatak</p>
+        </div>
+        <div >
+            <form action="server.php" method="GET">
+                <div id="okvir">
+                    <div class="header">
+                        <p class="tekst">Contact Us</p>
+                    </div>    
+                    <div class="input_polje1">
+                        <!-- <label for="name" id="label_name">Your Name:</label> -> nisam znao da li je bolje da napravim preko label pa u css da dodelim font i sivu boju ili jednostavno preko placeholder -->
+                        <input type="text" id="name" name="name" placeholder="Your Name:">
+                    </div>
+                    <div class="input_polje2">
+                        <!-- <label for="email" id="label_email">Email Address:</label> -->
+                        <input type="email" id="email" name="email" placeholder="Email Address:">
+                    </div>
+                    <div class="input_polje3">                        
+                        <textarea id="text_area" name="text_area" placeholder="Type your Message..." rows="4" cols="3"></textarea>
+                    </div>
+                    <div class="footer">
+                        <p class="footer_tekst">
+                            <input class="button" type="button" value="Send">
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
